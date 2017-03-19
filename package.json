@@ -4,12 +4,20 @@
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "org.nativescript.Rotiapp"
+    "id": "org.nativescript.Rotiapp",
+    "tns-android": {
+      "version": "2.5.0"
+    }
   },
   "dependencies": {
     "nativescript-statusbar": "^1.0.0",
     "nativescript-telerik-ui": "1.4.1",
     "tns-core-modules": "2.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
+    "lazy": "1.0.11"
+  }
 }
