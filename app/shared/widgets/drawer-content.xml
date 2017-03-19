@@ -3,6 +3,9 @@
     <label text="Home" tap="navigate" class="{{ selectedPage == 'home' ? 'selected' : '' }}" />
     <label text="About" tap="navigate" class="{{ selectedPage == 'about' ? 'selected' : '' }}" />
     <label text="Settings" tap="navigate" class="{{ selectedPage == 'settings' ? 'selected' : '' }}" />
+    <label text="MyOrder" tap="navigate" class="{{ selectedPage == 'myorder' ? 'selected' : '' }}" />
+    <label text="Share" tap="navigate" class="{{ selectedPage == 'share' ? 'selected' : '' }}" />
+    <label text="BuyCredit" tap="navigate" class="{{ selectedPage == 'buycredit' ? 'selected' : '' }}" />
     <label text="Help" tap="navigate" class="{{ selectedPage == 'help' ? 'selected' : '' }}" />
   </stack-layout>
 </grid-layout>
