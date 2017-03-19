@@ -5,7 +5,7 @@
   loaded="pageLoaded">
 
   <page.actionBar>
-    <action-bar title="Help">
+    <action-bar title="Share">
       <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
       <action-bar.actionItems>
         <ios>
